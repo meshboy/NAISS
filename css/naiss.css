@@ -1,0 +1,10 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+
+    margin: auto;
+}
+
+
+.table>tbody>tr>th, .table>tbody>tr>td {
+    border-top: none;
+}
