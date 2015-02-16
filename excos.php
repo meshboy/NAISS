@@ -20,33 +20,37 @@
 <body>
 
 
+
+<div class="container">
 <div  style="text-align: center;">
-    <header id="header_logo">
-        <div class="col-lg-3" >
-            <img src="images/logo1.jpg" width="100px" height="100px">
-        </div>
-        <div class="col-lg-6">
-            <h4 style="text-align: center">NATIONAL ASSOCIATION OF INTERNATIONAL STUDENT</h4>
-            <p style="text-align: center">OBAFEMI AWOLOWO UNIVERSITY</p>
+    <div class="panel panel-default ">
+        <div class="panel-body" style="background-color:">
+            <header id="header_logo" >
+                <div class="col-lg-3" >
+                    <img src="images/logo1.jpg" width="100px" height="100px">
+                </div>
+                <div class="col-lg-6">
+                    <h4 style="text-align: center; color: ; font-weight: bolder">NATIONAL ASSOCIATION OF INTERNATIONAL STUDENT</h4>
+                    <p style="text-align: center; color: ; font-weight: bolder"">OBAFEMI AWOLOWO UNIVERSITY</p>
 
-            <p style="text-align: center">ILE-IFE, OSUN STATE, NIGERIA</p>
+                    <p style="text-align: center; color: ; font-weight: bolder"">ILE-IFE, OSUN STATE, NIGERIA</p>
 
+                </div>
+                <div class="col-lg-3">
+                    <img src="images/logo2.jpg" width="100px" height="100px">
+                </div>
+                <header>
         </div>
-        <div class="col-lg-3">
-            <img src="images/logo2.jpg" width="100px" height="100px">
-        </div>
-        <header>
+    </div>
+
 
 </div>
 
-
-
-<div class="container">
-
+<div class="" >
     <header style="margin-top: 10px">
-        <div class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
+        <div class="navbar navbar-default" style="background-color: #08c">
+            <div class="container" >
+                <div class="navbar-header" >
 
                     <button type="button" class="navbar-toggle"  data-target="#mytarget" data-toggle="collapse" >
 
@@ -58,14 +62,14 @@
 
                 </div> <!--end of navbar-header -->
 
-                <div class="navbar-collapse collapse" id="mytarget">
+                <div class="navbar-collapse collapse"  >
 
-                    <ul class="nav navbar-nav" style="margin-left: 500px">
-                        <li ><a   href="index.php" style="font-weight: bolder">Home</a></li>
-                        <li  ><a  href="about.php" style=" font-weight: bolder">About</a></li>
-                        <li ><a class="active alert-success" href="excos.php" style="font-weight: bolder">Excos</a></li>
-                        <li ><a href="staff.php" style="font-weight: bolder">Staff Advisers</a></li>
-                        <li ><a href="contact.php" style="font-weight: bolder">Contact</a></li>
+                    <ul class="nav navbar-nav" style="margin-left: 500px" >
+                        <li ><a   href="index.php" style="font-weight: bolder; color:ghostwhite;" >Home</a></li>
+                        <li ><a href="about.php" style=" font-weight: bolder; color: ghostwhite">About</a></li>
+                        <li ><a class="active" href="excos.php" style="font-weight: bolder; color: ghostwhite; background-color: #0f0f0f ">Excos</a></li>
+                        <li ><a href="staff.php" style="font-weight: bolder; color: ghostwhite">Staff Advisers</a></li>
+                        <li ><a href="contact.php" style="font-weight: bolder; color: ghostwhite">Contact</a></li>
 
                     </ul>
 
@@ -76,6 +80,10 @@
 
         </div><!-- navbar navbar-default-->
     </header> <!-- end of header -->
+</div>
+
+
+
 
     <div class="panel panel-default">
         <div class="" >
@@ -483,14 +491,17 @@
         </div>
     </div>
 
+
+
+
+<div class="panel-footer" style="background-color: #08c">
+    <footer style="text-align: center">
+        <p style="color: ghostwhite; font-weight: bolder">© NAISS, 2015. All Right Reserved.</p>
+
+    </footer>
+
 </div>
 
-
-
-<footer style="text-align: center">
-    © NAISS, 2015. All Right Reserved.
-
-</footer>
 
 
 </div><!-- end of container -->

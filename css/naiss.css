@@ -8,3 +8,8 @@
 .table>tbody>tr>th, .table>tbody>tr>td {
     border-top: none;
 }
+
+#mytarget
+{
+    background-color: #0000cc;
+}
