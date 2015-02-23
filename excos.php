@@ -27,10 +27,10 @@
         <div class="panel-body" style="background-color:">
             <header id="header_logo" >
                 <div class="col-lg-3" >
-                    <img src="images/logo1.jpg" width="100px" height="100px">
+                    <img src="images/logo1.png" width="100px" height="100px">
                 </div>
                 <div class="col-lg-6">
-                    <h4 style="text-align: center; color: ; font-weight: bolder">NATIONAL ASSOCIATION OF INTERNATIONAL STUDENT</h4>
+                    <h4 style="text-align: center; color: ; font-weight: bolder">NATIONAL ASSOCIATION OF IMO STATE STUDENT</h4>
                     <p style="text-align: center; color: ; font-weight: bolder"">OBAFEMI AWOLOWO UNIVERSITY</p>
 
                     <p style="text-align: center; color: ; font-weight: bolder"">ILE-IFE, OSUN STATE, NIGERIA</p>
@@ -50,7 +50,7 @@
     <header style="margin-top: 10px">
         <div class="navbar navbar-default" style="background-color: #08c">
             <div class="container" >
-                <div class="navbar-header" >
+                <div class="navbar-header navbar-fixed-top" >
 
                     <button type="button" class="navbar-toggle"  data-target="#mytarget" data-toggle="collapse" >
 
@@ -62,19 +62,21 @@
 
                 </div> <!--end of navbar-header -->
 
-                <div class="navbar-collapse collapse"  >
+                <div class="row" style="text-align: center" >
+                    <div class="navbar-collapse collapse " id="mytarget" >
 
-                    <ul class="nav navbar-nav" style="margin-left: 500px" >
-                        <li ><a   href="index.php" style="font-weight: bolder; color:ghostwhite;" >Home</a></li>
-                        <li ><a href="about.php" style=" font-weight: bolder; color: ghostwhite">About</a></li>
-                        <li ><a class="active" href="excos.php" style="font-weight: bolder; color: ghostwhite; background-color: #0f0f0f ">Excos</a></li>
-                        <li ><a href="staff.php" style="font-weight: bolder; color: ghostwhite">Staff Advisers</a></li>
-                        <li ><a href="contact.php" style="font-weight: bolder; color: ghostwhite">Contact</a></li>
+                        <ul class="nav navbar-nav" style="margin-left: 200px">
+                            <li ><a   href="index.php" style="font-weight: bolder; color:ghostwhite;  ">Home</a></li>
+                            <li ><a href="about.php" style=" font-weight: bolder; color: ghostwhite">About</a></li>
+                            <li ><a class="active" href="excos.php" style="font-weight: bolder; color: ghostwhite; background-color: #0f0f0f">Excos</a></li>
+                            <li ><a href="staff.php" style="font-weight: bolder; color: ghostwhite">Staff Advisers</a></li>
+                            <li ><a href="contact.php" style="font-weight: bolder; color: ghostwhite">Contact</a></li>
 
-                    </ul>
+                        </ul>
 
 
-                </div> <!-- end of navbar-collapse -->
+                    </div> <!-- end of navbar-collapse -->
+                </div>
 
             </div> <!-- end of container-->
 
@@ -89,401 +91,496 @@
         <div class="" >
             <h1 style="text-align: center; margin-top: 30px; font-style: italic">The Executives of NAISS</h1>
         </div>
-        <div class="panel-body">
+        <div class="row">
+            <div class="panel-body" style="margin-left: 20px; margin-right: 30px">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/president.jpg" width="150px" height="150px" style="margin-top: 40px" >
 
-            <div class="col-lg-6">
-              <div class="col-lg-3">
-                <img src="images/image1.jpg" width="150px" height="150px" >
-                <img src="images/image1.jpg" width="150px" height="150px" style="margin-top: 100px">
-                <img src="images/image1.jpg" width="150px" height="150px" style="margin-top: 100px">
-                <img src="images/image1.jpg" width="150px" height="150px" style="margin-top: 100px">
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder;">President</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Dike, Reginald Ugouna
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
+                                    08164999546
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>
+                                    Dikereginald90@gmail.com
+                                </td>
 
-              </div>
-              <div class="col-lg-6" style="margin-left: 30px">
-                  <table border="0" class="table table-responsive">
-                      <tr><h4 style="font-weight: bolder">President</h4></tr>
-                      <tr>
-                          <th>
-                              Name:
-                          </th>
-                          <td>
-                              Dike, Reginald Ugouna
-                          </td>
-                      </tr>
-                      <tr>
-                          <th>
-                              Phone:
-                          </th>
-                          <td>
-                              08164999546
-                          </td>
-                      </tr>
-                      <tr>
-                          <th>
-                             Email:
-                          </th>
-                          <td>
-                              Dikereginald90@gmail.com
-                          </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Social Sciences
+                                </td>
 
-                      </tr>
-                      <tr>
-                          <th>
-                              Faculty:
-                          </th>
-                          <td>
-                              Social Sciences
-                          </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    Psychology
+                                </td>
 
-                      </tr>
-                      <tr>
-                          <th>
-                              Dept:
-                          </th>
-                          <td>
-                              Psychology
-                          </td>
+                            </tr>
+                        </table>
 
-                      </tr>
-                  </table>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/vice_president.jpg" width="150px" height="150px" style="margin-top: 40px" >
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder">Vice President</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Uhuegbu, Kelechi Vivian
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
+                                    07064878894
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>
+                                    Kkkgiri@yahoo.com
+                                </td>
 
-                  <table border="0" class="table table-responsive">
-                      <tr><h4 style="font-weight: bolder">Assistant Gen. Sec</h4></tr>
-                      <tr>
-                          <th>
-                              Name:
-                          </th>
-                          <td>
-                              Echle, Ogemdi Justin
-                          </td>
-                      </tr>
-                      <tr>
-                          <th>
-                              Phone:
-                          </th>
-                          <td>
-                              07066223173
-                          </td>
-                      </tr>
-                      <tr>
-                          <th>
-                              Email:
-                          </th>
-                          <td>
-                              Ogemhumble@yahoomail.com
-                          </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Arts
+                                </td>
 
-                      </tr>
-                      <tr>
-                          <th>
-                              Faculty:
-                          </th>
-                          <td>
-                              Arts
-                          </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    Linguistic and African Languages
+                                </td>
 
-                      </tr>
-                      <tr>
-                          <th>
-                              Dept:
-                          </th>
-                          <td>
-                              Foreign Languages
-                          </td>
+                            </tr>
+                        </table>
 
-                      </tr>
-                  </table>
-                  <table border="0" class="table table-responsive">
-                      <tr><h4 style="font-weight: bolder">Director of Socials</h4></tr>
-                      <tr>
-                          <th>
-                              Name:
-                          </th>
-                          <td>
-                              Jude, Obi Juliet
-                          </td>
-                      </tr>
-                      <tr>
-                          <th>
-                              Phone:
-                          </th>
-                          <td>
-                              08166104958
-                          </td>
-                      </tr>
-                      <tr>
-                          <th>
-                              Email:
-                          </th>
-                          <td>
-                              JulietJudeObi@yahoo.com
-                          </td>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/gen_sec.jpg" width="150px" height="150px" style="margin-top: 60px">
 
-                      </tr>
-                      <tr>
-                          <th>
-                              Faculty:
-                          </th>
-                          <td>
-                              Arts
-                          </td>
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder">General Secretary</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Okonkwo, Ogechukwu Vivian
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
+                                    08036909645
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>
+                                    vokonkwo48@gmail.com
+                                </td>
 
-                      </tr>
-                      <tr>
-                          <th>
-                              Dept:
-                          </th>
-                          <td>
-                              Religious Studies
-                          </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Science
+                                </td>
 
-                      </tr>
-                  </table>
-                  <table border="0" class="table table-responsive">
-                      <tr><h4 style="font-weight: bolder" >Welfare</h4></tr>
-                      <tr>
-                          <th>
-                              Name:
-                          </th>
-                          <td>
-                              Ofoegbu, Chiamka Sylvia
-                          </td>
-                      </tr>
-                      <tr>
-                          <th>
-                              Phone:
-                          </th>
-                          <td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    Physics and Engineering Physics
+                                </td>
 
-                          </td>
-                      </tr>
-                      <tr>
-                          <th>
-                              Email:
-                          </th>
-                          <td>kasi2ng@yahoo.com
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/ass_gen_sec.jpg" width="150px" height="150px" style="margin-top: 60px">
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder">Assistant Gen. Sec</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Echle, Ogemdi Justin
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
+                                    07066223173
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>
+                                    Ogemhumble@yahoomail.com
+                                </td>
 
-                          </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Arts
+                                </td>
 
-                      </tr>
-                      <tr>
-                          <th>
-                              Faculty:
-                          </th>
-                          <td>
-                              Social Sciences
-                          </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    Foreign Languages
+                                </td>
 
-                      </tr>
-                      <tr>
-                          <th>
-                              Dept:
-                          </th>
-                          <td>
-                              Sociology
-                          </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/treasurer.jpg" width="150px" height="150px" style="margin-top: 60px">
 
-                      </tr>
-                  </table>
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder">Treasurer</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Grateful, Great
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
+                                    08101376251
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>
+                                    Ifec075@gmail.com
+                                </td>
 
-              </div>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Arts
+                                </td>
 
-            </div>
-            <div class="col-lg-6">
-                <div class="col-lg-3">
-                    <img src="images/logo1.jpg" width="150px" height="150px" >
-                    <img src="images/logo1.jpg" width="150px" height="150px" style="margin-top: 100px">
-                    <img src="images/logo1.jpg" width="150px" height="150px" style="margin-top: 100px">
-                    <img src="images/logo1.jpg" width="150px" height="150px" style="margin-top: 100px">
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    English
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/dummy.jpg" width="150px" height="150px" style="margin-top: 60px">
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder">Director of Socials</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Jude, Obi Juliet
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
+                                    08166104958
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>
+                                    JulietJudeObi@yahoo.com
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Arts
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    Religious Studies
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
 
                 </div>
-                <div class="col-lg-6" style="margin-left: 30px">
-                    <table border="0" class="table table-responsive">
-                        <tr><h4 style="font-weight: bolder">Vice President</h4></tr>
-                        <tr>
-                            <th>
-                                Name:
-                            </th>
-                            <td>
-                                Uhuegbu, Kelechi Vivian
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Phone:
-                            </th>
-                            <td>
-                                07064878894
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Email:
-                            </th>
-                            <td>
-                                Kkkgiri@yahoo.com
-                            </td>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/walfare.jpg" width="150px" height="150px" style="margin-top: 60px">
 
-                        </tr>
-                        <tr>
-                            <th>
-                                Faculty:
-                            </th>
-                            <td>
-                                Arts
-                            </td>
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder" >Welfare</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Ofoegbu, Chiamka Sylvia
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
 
-                        </tr>
-                        <tr>
-                            <th>
-                                Dept:
-                            </th>
-                            <td>
-                                Linguistic and African Languages
-                            </td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>kasi2ng@yahoo.com
 
-                        </tr>
-                    </table>
+                                </td>
 
-                    <table border="0" class="table table-responsive">
-                        <tr><h4 style="font-weight: bolder">General Secretary</h4></tr>
-                        <tr>
-                            <th>
-                                Name:
-                            </th>
-                            <td>
-                                Okonkwo, Ogechukwu Vivian
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Phone:
-                            </th>
-                            <td>
-                                08036909645
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Email:
-                            </th>
-                            <td>
-                                vokonkwo48@gmail.com
-                            </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Social Sciences
+                                </td>
 
-                        </tr>
-                        <tr>
-                            <th>
-                                Faculty:
-                            </th>
-                            <td>
-                                Science
-                            </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    Sociology
+                                </td>
 
-                        </tr>
-                        <tr>
-                            <th>
-                                Dept:
-                            </th>
-                            <td>
-                                Physics and Engineering Physics
-                            </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/provost.jpg" width="150px" height="150px" style="margin-top: 60px">
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder">Provost</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Asotah, Wisdom A.
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
 
-                        </tr>
-                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>
+                                    widomastah@gmail.com
+                                </td>
 
-                    <table border="0" class="table table-responsive">
-                        <tr><h4 style="font-weight: bolder">Treasurer</h4></tr>
-                        <tr>
-                            <th>
-                                Name:
-                            </th>
-                            <td>
-                                Grateful, Great
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Phone:
-                            </th>
-                            <td>
-                                08101376251
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Email:
-                            </th>
-                            <td>
-                                Ifec075@gmail.com
-                            </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Technology
+                                </td>
 
-                        </tr>
-                        <tr>
-                            <th>
-                                Faculty:
-                            </th>
-                            <td>
-                                Arts
-                            </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    Materials Science and Engineering
+                                </td>
 
-                        </tr>
-                        <tr>
-                            <th>
-                                Dept:
-                            </th>
-                            <td>
-                                English
-                            </td>
+                            </tr>
+                        </table>
 
-                        </tr>
-                    </table>
-                    <table border="0" class="table table-responsive">
-                        <tr><h4 style="font-weight: bolder">Provost</h4></tr>
-                        <tr>
-                            <th>
-                                Name:
-                            </th>
-                            <td>
-                                Asotah, Wisdom A.
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Phone:
-                            </th>
-                            <td>
+                    </div>
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Email:
-                            </th>
-                            <td>
-                                widomastah@gmail.com
-                            </td>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/dummy.jpg" width="150px" height="150px" style="margin-top: 60px">
 
-                        </tr>
-                        <tr>
-                            <th>
-                                Faculty:
-                            </th>
-                            <td>
-                                Technology
-                            </td>
+                    </div>
+                    <div class="col-lg-3">
+                        <table border="0" class="table table-responsive">
+                            <tr><h4 style="font-weight: bolder">PRO</h4></tr>
+                            <tr>
+                                <th>
+                                    Name:
+                                </th>
+                                <td>
+                                    Nwachukwu, Austine Izu
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Phone:
+                                </th>
+                                <td>
+                                    07068444615
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Email:
+                                </th>
+                                <td>
+                                    stinoyaskid@gmail.com
+                                </td>
 
-                        </tr>
-                        <tr>
-                            <th>
-                                Dept:
-                            </th>
-                            <td>
-                                Materials Science and Engineering
-                            </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Faculty:
+                                </th>
+                                <td>
+                                    Social Sciences
+                                </td>
 
-                        </tr>
-                    </table>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dept:
+                                </th>
+                                <td>
+                                    Economics
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th>
+                                    Post:
+                                </th>
+                                <td>
+                                    Acting PRO
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+
 
                 </div>
 
